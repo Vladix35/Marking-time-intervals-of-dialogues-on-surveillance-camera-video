@@ -4,7 +4,9 @@
 Видео из датасета были перекодированы из avi в MP$ с H264 (AVC) + AAC и 25 frame rate, чтобы label-studio принял данные видео для разметки
 
 ## Запуск ngrok для поключение модели к label-studio:
-### ngrok http 9090
+```
+ngrok http 9090
+```
 
 ## Запуск модели yolov8n-cls.pt:
 ### git clone https://github.com/HumanSignal/label-studio-ml-backend.git
