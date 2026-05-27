@@ -1,6 +1,6 @@
 # Marking-time-intervals-of-dialogues-on-surveillance-camera-video
 
-## Датасет используемый для разметки: https://www.kaggle.com/datasets/abdelrhmannile/wisenet
+## [WiseNET cctv video dataset](https://www.kaggle.com/datasets/abdelrhmannile/wisenet) - датасет используемый для разметки
 Видео из датасета были перекодированы из avi в MP$ с H264 (AVC) + AAC и 25 frame rate, чтобы label-studio принял данные видео для разметки
 
 Ссылка на папку: https://drive.google.com/drive/folders/1XqDHDF8zZ1dFKPb7o_5jD8CxgH_CnN-_?usp=drive_link
@@ -59,6 +59,6 @@ docker compose up --build
 </View>
 ```
 
-## Скрипт [timeline_labels.py]() реализует ML-модель для Label Studio, которая на основе предобученной YOLO-классификации и дообучаемой LSTM-сети автоматически предсказывает временные интервалы (TimelineLabels) на видео, обучаясь постепенно на ручной разметке пользователя
+## Скрипт [timeline_labels.py](https://github.com/Vladix35/Marking-time-intervals-of-dialogues-on-surveillance-camera-video/blob/main/timeline_labels.py) реализует ML-модель для Label Studio, которая на основе предобученной YOLO-классификации и дообучаемой LSTM-сети автоматически предсказывает временные интервалы (TimelineLabels) на видео, обучаясь постепенно на ручной разметке пользователя
 
 
