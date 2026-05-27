@@ -32,6 +32,7 @@ docker compose up --build
 
 
 В противном случае, отсуствие диалога.
+<img width="1203" height="759" alt="image" src="https://github.com/user-attachments/assets/8ff16956-bfb3-4783-84f4-138c0953aaf3" />
 
 
 
