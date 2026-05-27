@@ -61,4 +61,3 @@ docker compose up --build
 
 ## Скрипт [timeline_labels.py](https://github.com/Vladix35/Marking-time-intervals-of-dialogues-on-surveillance-camera-video/blob/main/timeline_labels.py) реализует ML-модель для Label Studio, которая на основе предобученной YOLO-классификации и дообучаемой LSTM-сети автоматически предсказывает временные интервалы (TimelineLabels) на видео, обучаясь постепенно на ручной разметке пользователя
 
-
