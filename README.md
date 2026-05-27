@@ -16,4 +16,6 @@ docker compose up --build
 ```
 ### 3. Подключение модели в label-studio через этот URL: https://overload-drown-baton.ngrok-free.dev
 
+## d
+
 
