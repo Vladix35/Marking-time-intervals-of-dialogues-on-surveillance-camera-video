@@ -3,6 +3,8 @@
 ## Датасет используемый для разметки: https://www.kaggle.com/datasets/abdelrhmannile/wisenet
 Видео из датасета были перекодированы из avi в MP$ с H264 (AVC) + AAC и 25 frame rate, чтобы label-studio принял данные видео для разметки
 
+Ссылка на папку: https://drive.google.com/drive/folders/1XqDHDF8zZ1dFKPb7o_5jD8CxgH_CnN-_?usp=drive_link
+
 ## Подготовка label-studio для разметки:
 ### 1. Запуск ngrok для поключение модели к label-studio:
 ```
