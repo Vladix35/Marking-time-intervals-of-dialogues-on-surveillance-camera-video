@@ -36,5 +36,27 @@ docker compose up --build
 
 Допустимо задание 3-5 кадров Dialogue при частичном обороте от собеседника после приличной по количеству кадров беседы, а все остальные - No dialogue.
 
+## Получившейся после экспорта json файл: project-1-at-2026-05-27-14-53-7e92f5d7.json
+
+## XML файл используемый в Labeling Interface
+```
+<View>
+  <Video name="video" value="$video" frameRate="25.0" timelineHeight="120"/>
+  <TimelineLabels name="videoLabels" toName="video"
+    model_trainable="true"
+    model_classifier_epochs="1000"
+    model_classifier_sequence_size="16"
+    model_classifier_hidden_size="32"
+    model_classifier_num_layers="1"
+    model_classifier_f1_threshold="0.95"
+    model_classifier_accuracy_threshold="0.99"
+    model_score_threshold="0.5">
+    <Label value="Dialogue" background="#44d80e"/>
+    <Label value="No dialogue" background="#D4380D"/>
+  </TimelineLabels>
+</View>
+```
+
+## 
 
 
