@@ -38,7 +38,7 @@ docker compose up --build
 
 Допустимо задание 3-5 кадров Dialogue при частичном обороте от собеседника после приличной по количеству кадров беседы, а все остальные - No dialogue.
 
-## Получившейся после экспорта json файл: project-1-at-2026-05-27-14-53-7e92f5d7.json
+## Получившейся после экспорта json файл: [project-1-at-2026-05-27-14-53-7e92f5d7.json](https://github.com/Vladix35/Marking-time-intervals-of-dialogues-on-surveillance-camera-video/blob/main/project-1-at-2026-05-27-14-53-7e92f5d7.json)
 
 ## XML файл используемый в Labeling Interface
 ```
